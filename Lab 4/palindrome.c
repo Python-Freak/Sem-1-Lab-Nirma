@@ -31,6 +31,5 @@ int main(int args, char *argc[])
     {
         printf("%d is a not palindrome number", num);
     }
-
     return 0;
 };

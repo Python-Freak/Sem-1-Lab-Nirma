@@ -17,7 +17,7 @@ int isAngstrong(int x)
     int sum = 0;
     while (copy)
     {
-        sum += pow(copy % 10, 3);
+        sum += pow(copy % 10, digits);
         copy /= 10;
     }
     if (x == sum)

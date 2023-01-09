@@ -9,7 +9,7 @@ void pattern1(int n)
     {
         for (int j = 0; j < i; j++)
         {
-            printf("%c", (char)(65 + j));
+            printf("%c ", (char)(65 + j));
         }
         printf("\n");
     }
@@ -58,6 +58,6 @@ void pattern3(int n)
 int main(int args, char *argc[])
 {
 
-    pattern3(4);
+    pattern1(4);
     return 0;
 };
