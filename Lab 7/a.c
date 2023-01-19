@@ -50,7 +50,6 @@ void findUnion(int *a, int *b, int a_l, int b_l)
                 break;
             }
         }
-
         if (!isPresent)
         {
             ans[k++] = b[i];
