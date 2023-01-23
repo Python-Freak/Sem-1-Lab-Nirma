@@ -17,9 +17,9 @@ int main(int args, char *argc[])
     Item **list = (Item **)malloc(5 * sizeof(Item *));
     int quantity;
     float price, cost;
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 5; i++)
     {
-        char name[20];
+        char name[20] = "";
         Item *item = (Item *)malloc(sizeof(Item));
         // printf("Enter Item (name quantity price cost) : ");
         scanf("%s %d %f", name, &quantity, &price);
@@ -34,6 +34,5 @@ int main(int args, char *argc[])
     {
         printf("%5s      %8d      %10f      %4f\n", list[j]->name, list[j]->quantity, list[j]->price, list[j]->cost);
     }
-
     return 0;
 };

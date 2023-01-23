@@ -61,9 +61,9 @@ void findUnion(int *a, int *b, int a_l, int b_l)
 int main(int args, char *argc[])
 {
     // CODE HERE
-    int a[] = {1, 2, 3, 4, 5, 6};
-    int b[] = {1, 3, 5, 8};
-    findIntersection(a, b, 6, 4);
-    findUnion(a, b, 6, 4);
+    int a[] = {11, 33, 23, 45, 67, 102, 106};
+    int b[] = {106, 33, 54, 86, 11};
+    findIntersection(a, b, 7, 5);
+    findUnion(a, b, 7, 5);
     return 0;
 };

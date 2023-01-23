@@ -8,9 +8,9 @@ void printArr(int *arr, int n)
     printf("[ ");
     for (int i = 0; i < n; i++)
     {
-        printf("%d ", arr[i]);
+        printf("%d, ", arr[i]);
     }
-    printf("\b ]\n");
+    printf("\b\b ]\n");
 }
 
 void reverse(int *arr, int n)
