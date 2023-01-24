@@ -57,7 +57,6 @@ void pattern3(int n)
 
 int main(int args, char *argc[])
 {
-
-    pattern1(4);
+    pattern3(9);
     return 0;
 };
